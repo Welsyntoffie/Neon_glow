@@ -1,2 +1,2 @@
 # Neon_glow
-Neon glow themes for Home Assistant
+Neon glow themes for Home Assistant.
