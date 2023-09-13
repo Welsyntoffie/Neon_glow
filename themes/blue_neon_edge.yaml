@@ -1,42 +1,55 @@
 Blue neon edge:
   # Header:
-  # app-header-background-color: rgb(23, 23, 23)
+  
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px	
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/blue_neon_edge/b1_blue.jpg") fixed'
   app-header-background-color: rgba(52, 170, 223,0.5)
   app-header-text-color: rgb(198, 203, 210)
   app-header-selection-bar-color: var(--primary-color)
   app-header-edit-background-color: rgb(136, 136, 136)
+  
   # Main Interface Colors
   primary-color: rgb(138, 180, 248)
   primary-background-color: rgb(23, 23, 23)
   secondary-background-color: rgb(32, 33, 36)
   divider-color: var(--primary-background-color)
   accent-color: var(--primary-color)
+  graph-color: rgb(255, 0, 0)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  
   # Text
-  primary-text-color: rgb(3, 255, 255)
+  primary-text-color: rgb(230, 255, 255)
   secondary-text-color: rgb(5, 163, 242)
-  text-primary-color: var(--primary-text-color)
+  text-primary-color: rgb(0, 0, 0)
   disabled-text-color: rgba(184, 190, 199, 0.4)
+  text-on-state-color: rgb(255, 0, 0)
+  
   # Sidebar Menu
   sidebar-icon-color: rgb(52, 170, 223)
   sidebar-text-color: rgb(198, 203, 210)
   sidebar-background-color: rgb(32, 33, 36)
   sidebar-selected-icon-color: rgb(138, 180, 248)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  
   # Buttons
   paper-item-icon-color: rgb(169, 177, 188)
   paper-item-icon-active-color: rgb(138, 180, 248)
   mdc-button-outline-color: rgb(138, 180, 248)
+  
   # States and Badges
-  state-icon-color: var(--paper-item-icon-color)
+  state-icon-color: rgb(138, 180, 248)
   state-icon-active-color: var(--paper-item-icon-active-color)
   state-icon-unavailable-color: var(--disabled-text-color)
+  
   # Sliders
   paper-slider-knob-color: rgb(52, 170, 223)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
   paper-slider-secondary-color: var(--light-primary-color)
+  
   # Labels
   label-badge-background-color: var(--secondary-background-color)
   label-badge-text-color: var(--primary-text-color)
@@ -45,6 +58,7 @@ Blue neon edge:
   label-badge-blue: rgb(138, 180, 248)
   label-badge-yellow: rgb(223, 194, 113)
   label-badge-gray: rgb(95, 98, 103)
+  
   # Cards
   ha-card-border-radius: 6px
   card-background-color: rgb(32, 33, 36)
@@ -54,27 +68,34 @@ Blue neon edge:
   paper-dialog-background-color: var(--card-background-color)
   paper-listbox-background-color: var(--card-background-color)
   paper-card-background-color: var(--card-background-color)
+  
   # Switches
   switch-checked-button-color: rgb(52, 170, 223)
   switch-checked-track-color: rgb(138, 180, 248)
   switch-unchecked-button-color: rgb(172, 176, 185)
   switch-unchecked-track-color: rgb(154, 160, 166)
+  #rgb(255, 0, 0)
+  
   # Toggles
   paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
   paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
   paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
   paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+  
   # Table
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   data-table-background-color: var(--primary-background-color)
+  
   # Dropdowns
   material-background-color: var(--table-row-background-color)
   material-secondary-background-color: var(--table-row-alternative-background-color)
   mdc-theme-surface: var(--secondary-background-color)
+  
   # Pre/Code
   markdown-code-background-color: rgb(23, 23, 23)
   code-editor-background-color: rgb(23, 23, 23)
+  
   # Checkboxes
   mdc-checkbox-unchecked-color: rgb(169, 177, 188)
   mdc-checkbox-disable-color: var(--disabled-text-color)
@@ -85,6 +106,7 @@ Blue neon edge:
   mdc-select-dropdown-icon-color: var(--secondary-text-color)
   mdc-select-hover-line-color: var(--accent-color)
   mdc-text-field-fill-color: var(--mdc-select-fill-color)
+  
   # Input
   input-fill-color: var(--secondary-background-color)
   input-dropdown-icon-color: var(--secondary-text-color)
@@ -92,6 +114,7 @@ Blue neon edge:
   input-label-ink-color: var(--secondary-text-color)
   input-idle-line-color: var(--primary-text-color)
   input-hover-line-color: var(--accent-color)
+  
   #RGB
   rgb-primary-text-color: 169, 177, 188
   rgb-primary-color: 169, 177, 188
