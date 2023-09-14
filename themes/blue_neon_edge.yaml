@@ -5,12 +5,12 @@ Blue neon edge:
   ha-card-border-radius: 8px	
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/blue_neon_edge/b1_blue.jpg") fixed'
   app-header-background-color: rgba(52, 170, 223,0.5)
-  app-header-text-color: rgb(198, 203, 210)
+  app-header-text-color: rgb(255, 255, 255)
   app-header-selection-bar-color: var(--primary-color)
   app-header-edit-background-color: rgb(136, 136, 136)
   
   # Main Interface Colors
-  primary-color: rgb(138, 180, 248)
+  primary-color: rgb(0, 173, 250)
   primary-background-color: rgb(23, 23, 23)
   secondary-background-color: rgb(32, 33, 36)
   divider-color: var(--primary-background-color)
@@ -27,14 +27,14 @@ Blue neon edge:
   text-on-state-color: rgb(255, 0, 0)
   
   # Sidebar Menu
-  sidebar-icon-color: rgb(52, 170, 223)
+  sidebar-icon-color: var(--neon_blue_bright)
   sidebar-text-color: rgb(198, 203, 210)
   sidebar-background-color: rgb(32, 33, 36)
   sidebar-selected-icon-color: rgb(138, 180, 248)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   
   # Buttons
-  paper-item-icon-color: rgb(169, 177, 188)
+  paper-item-icon-color: rgb(87, 124, 140)
   paper-item-icon-active-color: rgb(138, 180, 248)
   mdc-button-outline-color: rgb(138, 180, 248)
   
@@ -44,7 +44,7 @@ Blue neon edge:
   state-icon-unavailable-color: var(--disabled-text-color)
   
   # Sliders
-  paper-slider-knob-color: rgb(52, 170, 223)
+  paper-slider-knob-color: var(--neon_blue_bright)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
@@ -64,17 +64,16 @@ Blue neon edge:
   card-background-color: rgb(32, 33, 36)
   ha-card-background: rgba(0, 15, 20, 0.5)
   ha-card-border-color: rgb(42, 43, 46)
-  ha-card-box-shadow: 0px 0px 6px 2px rgba(52, 170, 223,0.9)  
+  ha-card-box-shadow: 0px 0px 6px 2px rgba(0, 178, 255,0.9)  
   paper-dialog-background-color: var(--card-background-color)
   paper-listbox-background-color: var(--card-background-color)
   paper-card-background-color: var(--card-background-color)
   
   # Switches
-  switch-checked-button-color: rgb(52, 170, 223)
+  switch-checked-button-color: var(--neon_blue_bright)
   switch-checked-track-color: rgb(138, 180, 248)
   switch-unchecked-button-color: rgb(172, 176, 185)
   switch-unchecked-track-color: rgb(154, 160, 166)
-  #rgb(255, 0, 0)
   
   # Toggles
   paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
@@ -118,3 +117,5 @@ Blue neon edge:
   #RGB
   rgb-primary-text-color: 169, 177, 188
   rgb-primary-color: 169, 177, 188
+  
+  neon_blue_bright: rgb(0, 178, 255) 
