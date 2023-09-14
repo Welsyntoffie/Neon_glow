@@ -1,4 +1,4 @@
-# Neon_glow
+# Neon glow
 Neon glow themes for Home Assistant.
 
 I have yet to descover neon glow themes,so I decided to start my own.
